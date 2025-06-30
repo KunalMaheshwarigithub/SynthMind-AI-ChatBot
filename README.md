@@ -79,22 +79,22 @@ SynthMind is an intelligent, session-aware AI chatbot built with **Streamlit**, 
 
 3. Set Up .streamlit/secrets.toml
 
-Create a file at .streamlit/secrets.toml with your MySQL credentials:
-toml
-[mysql]
-host = "localhost"
-user = "your_mysql_user"
-password = "your_password"
-database = "your_database_name"
-port = "your_port" # By deafult 3305
+   Create a file at .streamlit/secrets.toml with your MySQL credentials:
+   toml
+   [mysql]
+   host = "localhost"
+   user = "your_mysql_user"
+   password = "your_password"
+   database = "your_database_name"
+   port = "your_port" # By deafult 3305
 
 4. Run Ollama Locally
-Make sure Ollama is installed and running with the Gemma model:
-```bash
+   Make sure Ollama is installed and running with the Gemma model:
+ ```bash
    ollama run gemma:2b
 
 5. Start the Streamlit App
-```bash
+ ```bash
    streamlit run app.py
 
 ## Developed by Kunal Maheshwari
